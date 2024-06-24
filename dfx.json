@@ -1,14 +1,6 @@
 {
   "canisters": {
-    "test-app-backend": {
-      "candid": "src/test-app-backend/test-app-backend.did",
-      "package": "test-app-backend",
-      "type": "rust"
-    },
     "test-app-frontend": {
-      "dependencies": [
-        "test-app-backend"
-      ],
       "source": [
         "src/test-app-frontend/dist"
       ],
